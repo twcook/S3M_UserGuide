@@ -69,12 +69,13 @@ When the installation is complete, the last line in the terminal should be:
 S3MPython needs to be configured for any project. This includes using it with theese examples.
 In the terminal window, type::
 
-    python -m S3MPython.configure()
+    python
+    >>>from S3MPython import project
+    >>>project.init()
 
-    
-Test the installation by starting the Jupyter Notebooks server::
+Test the installation by starting the Jupyter Lab server::
 
- jupyter notebook
+    jupyter-lab
 
 This command should open a new tab in your default web browser (Firefox, Chrome, Edge, etc.)
 
